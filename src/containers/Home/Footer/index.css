@@ -1,0 +1,33 @@
+.footer {
+    margin-top: 60px;
+    padding: 0 20px 50px;
+}
+
+.footer .text1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #8A8A8A;
+}
+
+.footer .text2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    background: linear-gradient(89.99deg, #FB818B 37.63%, #558CEF 62.41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer .text2 img {
+    margin-right: 10px;
+}

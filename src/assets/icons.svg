@@ -1,0 +1,11 @@
+<svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+     xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <symbol id="icon-copy" viewBox="0 0 32 32">
+            <title>Copy</title>
+            <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)"
+                  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"
+                  d="M6.667 20h-1.333c-0.707 0-1.386-0.281-1.886-0.781s-0.781-1.178-0.781-1.886v-12c0-0.707 0.281-1.386 0.781-1.886s1.178-0.781 1.886-0.781h12c0.707 0 1.386 0.281 1.886 0.781s0.781 1.178 0.781 1.886v1.333M14.667 12h12c1.473 0 2.667 1.194 2.667 2.667v12c0 1.473-1.194 2.667-2.667 2.667h-12c-1.473 0-2.667-1.194-2.667-2.667v-12c0-1.473 1.194-2.667 2.667-2.667z"/>
+        </symbol>
+    </defs>
+</svg>
