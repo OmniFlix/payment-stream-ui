@@ -1,0 +1,349 @@
+/* Disabled Create Payment */
+.create_payment.disabled_create_payment {
+    opacity: 0.5;
+}
+
+.create_payment.disabled_create_payment .text_field > div {
+    background: #141414;
+    color: #696969;
+}
+
+.create_payment.disabled_create_payment .text_field > div:before {
+    border-bottom-style: none;
+}
+
+.create_payment.disabled_create_payment .text_field input {
+    color: #696969;
+    -webkit-text-fill-color: #696969;
+}
+
+/* Create Payment */
+.create_payment {
+    background: #1B1B1B;
+    border-radius: 5px;
+    padding: 40px;
+}
+
+.create_payment .create_payment_stream > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.create_payment .create_payment_stream > div > span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #CECECE;
+    margin-bottom: 10px;
+}
+
+.create_payment .tokens_transfer > p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #CECECE;
+    margin-bottom: 10px;
+}
+
+.create_payment .tokens_transfer .available_tokens {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1DA1F2;
+}
+
+.create_payment .tokens_transfer .amount_end {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1DA1F2;
+}
+
+.create_payment .create_payment_stream .tokens_transfer > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.create_payment .create_payment_stream .tokens_transfer .select_field_parent {
+    width: 40%;
+    margin-right: 10px;
+}
+
+.create_payment .create_payment_stream .tokens_transfer > .text_field {
+    width: 60%;
+}
+
+.create_payment .text_field > div {
+    height: 50px;
+    border-radius: 5px;
+}
+
+.create_payment .to_address_section > div {
+    width: 100%;
+}
+
+.create_payment .select_field .select__value-container {
+    padding: 0 12px;
+    height: 50px;
+}
+
+.create_payment .type_actions {
+    background: #141414;
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.create_payment .type_actions button {
+    width: 50%;
+}
+
+.create_payment .type_actions .active_type {
+    background: linear-gradient(89.99deg, #F44554 0.42%, #3271E1 104.54%);
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.create_payment .type_actions .default_type {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color: #949494;
+    text-transform: capitalize;
+}
+
+.create_payment .start_payment_button {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(89.99deg, #F44554 0.42%, #3271E1 104.54%);
+    border-radius: 5px;
+    padding: 15px 40px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.create_payment .start_payment_button[disabled] {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.create_payment .end_date > div {
+    width: 100%;
+    background: #141414;
+    color: #696969;
+    border: 1px solid #141414;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.create_payment .text_field > div:hover fieldset {
+    border: 1px solid #3F5A6F;
+}
+
+.create_payment .select_field .select__placeholder {
+    font-size: 17px;
+}
+
+.create_payment .tokens_transfer .select_field_parent + .text_field {
+    width: 60%;
+}
+
+/* Connect with us */
+.connect_with_us {
+    background: #1B1B1B;
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.connect_with_us .social_icons {
+    margin-top: 40px;
+}
+
+.tooltip_css {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #212121;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 14px 20px;
+}
+
+/* Vote us */
+.vote_us {
+    background: #1B1B1B;
+    border-radius: 5px;
+    padding: 40px;
+    margin-top: 30px;
+}
+
+.vote_us .header2_common {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.vote_us > button {
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    position: relative;
+    z-index: 0;
+    padding: 14px;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.vote_us > button svg {
+    margin-right: 10px;
+}
+
+.vote_us > button p {
+    background: linear-gradient(89.99deg, #FB818B 0.42%, #558CEF 104.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.vote_us > button:before {
+    content: "";
+    position: absolute;
+    background: #1c1c1c;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+.vote_us > button:after {
+    content: "";
+    background: linear-gradient(89.99deg, #FB818B 0.42%, #558CEF 104.54%);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -2;
+    border-radius: 5px;
+}
+
+@media (max-width: 930px) {
+    .create_payment .create_payment_stream .tokens_transfer .select_field_parent {
+        width: 50%;
+    }
+
+    .create_payment .create_payment_stream .tokens_transfer div > .text_field:nth-child(2) {
+        width: 50%;
+    }
+}
+
+@media (max-width: 870px) {
+    .create_payment .start_payment_button {
+        padding: 15px 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 805px) {
+    .create_payment,
+    .connect_with_us {
+        padding: 20px;
+    }
+
+    .stream_card {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 740px) {
+    .create_payment .create_payment_stream .tokens_transfer .select_field_parent {
+        width: 40%;
+    }
+
+    .create_payment .create_payment_stream .tokens_transfer div > .text_field:nth-child(2) {
+        width: 60%;
+    }
+
+    .create_payment .select_field .select__value-container {
+        padding: 0 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .create_payment .create_payment_stream .tokens_transfer > div {
+        flex-direction: column;
+    }
+
+    .create_payment .create_payment_stream .tokens_transfer .select_field_parent {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .create_payment .create_payment_stream .tokens_transfer div > .text_field:nth-child(2) {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 440px) {
+    .create_payment .start_payment_button {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+
+    .create_payment .create_payment_stream > div > span,
+    .create_payment .tokens_transfer > p {
+        font-size: 14px;
+    }
+
+    .create_payment .tokens_transfer .available_tokens {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .create_payment .type_actions {
+        padding: 0;
+    }
+
+    .create_payment .start_payment_button {
+        font-size: 14px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 390px) {
+    .create_payment .start_payment_button {
+        font-size: 13px;
+        padding: 15px 10px;
+    }
+}

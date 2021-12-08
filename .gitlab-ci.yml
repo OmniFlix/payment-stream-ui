@@ -1,0 +1,19 @@
+image: node:13-alpine
+
+stages:
+  - test
+
+lint_test:
+  stage: test
+  only:
+    - development
+    - staging
+    - master
+    - merge_requests
+  script:
+    - apk add g++ make python
+    - yarn
+    - $(pwd)/node_modules/.bin/eslint $(pwd)
+  cache:
+    paths:
+      - node_modules/

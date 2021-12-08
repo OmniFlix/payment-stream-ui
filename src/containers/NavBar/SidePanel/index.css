@@ -1,0 +1,508 @@
+.side_panel > div:nth-child(3) {
+    background: #1B1B1B;
+    backdrop-filter: blur(30px);
+    color: #ffffff;
+    width: 500px;
+}
+
+.side_panel .side_panel_content {
+    padding: 40px 40px 124px;
+}
+
+.side_panel_content > div {
+    margin-bottom: 40px;
+}
+
+.side_panel .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side_panel .heading > h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: unset;
+}
+
+.side_panel .heading .connect_button {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 14px;
+}
+
+.side_panel .sub_heading {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: left;
+}
+
+.side_panel .ibc_tokens_section {
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.side_panel .tokens_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.side_panel .tokens_list:last-child {
+    margin-bottom: 0;
+}
+
+.side_panel .token_info {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #B7B7B7;
+    display: flex;
+    align-items: center;
+}
+
+.side_panel .token_info img {
+    margin-right: 15px;
+}
+
+.side_panel .token_bal {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    font-feature-settings: 'zero' on;
+    color: #F2C94C;
+    width: 30%;
+}
+
+.side_panel .token_bal > span {
+    font-size: 18px;
+}
+
+.tokens_list .buttons_div {
+    display: flex;
+    align-items: center;
+}
+
+.tokens_list .buttons_div > p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    background: linear-gradient(
+            89.99deg, #FB818B 0.42%, #558CEF 104.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.tokens_list .buttons_div > p:first-child {
+    margin-right: 15px;
+}
+
+/*Network*/
+.side_panel .address {
+    background: #242424;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.network .copy_div {
+    display: flex;
+    align-items: center;
+}
+
+.network .copy_button {
+    margin-left: 4px;
+}
+
+.network .hash_text {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 21px;
+    line-height: 29px;
+    font-feature-settings: 'zero' on;
+    color: #FFFFFF;
+    max-width: 300px;
+}
+
+.network .balance {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: uppercase;
+    font-feature-settings: 'zero' on;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(89.99deg, #FB818B 0.42%, #558CEF 104.54%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.network .balance > span > span {
+    font-size: 20px;
+    line-height: 23.46px;
+}
+
+/*Footer*/
+.side_panel .footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgba(26, 30, 32, 0.9);
+    box-sizing: border-box;
+    backdrop-filter: blur(4px);
+    padding: 40px 40px 32px;
+    margin: unset;
+}
+
+.side_panel .footer > button {
+    background: #EB5757;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 15px;
+    text-transform: unset;
+}
+
+
+/* deposit Dialog */
+.deposit_dialog > div:nth-child(3) > div {
+    background: rgb(24 27 31);
+    border-radius: 20px;
+    padding: 40px;
+    width: 550px;
+}
+
+.deposit_dialog .deposit_dialog_content > h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+}
+
+.deposit_dialog .deposit_section1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.deposit_dialog .deposit_section1 > span {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.deposit_dialog .ibc_transfer_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deposit_dialog .ibc_transfer_section > div {
+    background: rgba(33, 37, 42, 0.5);
+    border: 1px solid #292929;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 200px;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.deposit_dialog .ibc_transfer_section > div > span {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.deposit_dialog .ibc_transfer_section > div .hash_text {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    font-feature-settings: 'zero' on;
+    color: #FFFFFF;
+    max-width: 160px;
+}
+
+.deposit_dialog .deposit_section2 {
+    margin-top: 50px;
+}
+
+.deposit_dialog .deposit_section2 .deposit_section2_header {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.deposit_dialog .deposit_section2 .deposit_section2_header .balance {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1DA1F2;
+}
+
+.deposit_dialog .deposit_section2 .amount_field {
+    width: 100%;
+}
+
+.deposit_dialog .deposit_section2 .amount_field > div > div:nth-child(1) {
+    margin: 0;
+}
+
+.deposit_dialog .deposit_section2 .amount_field .token_start {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-left: 10px;
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+
+.deposit_dialog .deposit_section2 .amount_field .amount_end {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #1DA1F2;
+}
+
+.deposit_dialog .deposit_section2 .amount_field input {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.deposit_dialog .deposit_button {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    background: linear-gradient(
+            89.99deg, #FB818B 0.42%, #558CEF 104.54%);
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 12px 20px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.deposit_dialog .deposit_button:disabled,
+.activity_table .deposite_value:disabled {
+    opacity: 0.5;
+}
+
+.deposit_dialog .deposit_button > span {
+    color: #FFFFFF;
+}
+
+.streaming_heading {
+    display: none;
+}
+
+.side_panel .ibc_tokens .header {
+    display: flex;
+    align-items: center;
+}
+
+.side_panel .ibc_tokens .header > button {
+    margin-left: 10px;
+}
+
+@media (max-width: 1030px) {
+    .side_panel_content .stream_header {
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: normal;
+        font-style: italic;
+        font-size: 22px;
+        line-height: 150%;
+        color: #D2D1D1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .side_panel_content .stream_header > p {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+        background: linear-gradient(89.99deg, #FB818B 0.42%, #558CEF 104.54%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .side_panel_content .stream_header span {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .side_panel_content .stream_header > p img {
+        margin-right: 10px;
+    }
+
+    .streaming_heading {
+        font-family: 'Inter', sans-serif;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .streaming_heading svg {
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 600px) {
+    .side_panel > div:nth-child(3) {
+        width: 85%;
+    }
+
+    .deposit_dialog > div:nth-child(3) > div {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .deposit_dialog .ibc_transfer_section > div .hash_text {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 520px) {
+    .side_panel > div:nth-child(3) {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .side_panel_content .stream_header span {
+        display: none;
+    }
+
+    .side_panel .side_panel_content {
+        padding: 30px 20px 124px;
+    }
+
+    .side_panel_content .stream_header > p {
+        font-size: 26px;
+    }
+
+    .side_panel .heading > h2 {
+        font-size: 20px;
+    }
+
+    .network .balance {
+        font-size: 24px;
+    }
+
+    .network .hash_text {
+        font-size: 18px;
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 470px) {
+    .deposit_dialog .ibc_transfer_section > div {
+        width: 45%;
+    }
+
+    .deposit_dialog .deposit_dialog_content > h2 {
+        font-size: 26px;
+    }
+
+    .deposit_dialog .deposit_section1 > span {
+        font-size: 18px;
+    }
+
+    .deposit_dialog .deposit_section2 .deposit_section2_header {
+        font-size: 18px;
+    }
+
+    .deposit_dialog .deposit_section2 .amount_field .token_start {
+        font-size: 18px;
+    }
+
+    .deposit_dialog .deposit_section2 .amount_field input {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .deposit_dialog .deposit_dialog_content > h2 {
+        font-size: 22px;
+    }
+
+    .deposit_dialog .deposit_section1 > span {
+        font-size: 14px;
+    }
+
+    .deposit_dialog .deposit_section2 .deposit_section2_header {
+        font-size: 14px;
+    }
+
+    .deposit_dialog .deposit_section2 .amount_field .token_start {
+        font-size: 14px;
+        padding-right: 10px;
+    }
+
+    .deposit_dialog .deposit_section2 .amount_field input {
+        font-size: 14px;
+        padding: 12px 5px;
+    }
+
+    .deposit_dialog > div:nth-child(3) > div {
+        width: 94%;
+        padding: 10px;
+    }
+}
